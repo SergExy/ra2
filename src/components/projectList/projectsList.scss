@@ -1,0 +1,21 @@
+.projectList {
+  columns: 3;
+
+  &__project {
+    margin-bottom: 5px;
+    overflow: hidden;
+
+    &:hover {
+      border-color: #555555;
+
+      .projectList__img {
+        transform: scale(1.05);
+      }
+    }
+  }
+
+  &__img {
+    width: 100%;
+    transition: transform .25s ease-out;
+  }
+}

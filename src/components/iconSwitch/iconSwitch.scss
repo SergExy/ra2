@@ -1,0 +1,14 @@
+.iconSwitch {
+  text-align: right;
+
+  &__btn {
+    border: none;
+    background: transparent;
+  }
+
+  .material-icons {
+    color: gray;
+    font-size: 36px;
+    cursor: pointer;
+  }
+}

@@ -1,0 +1,27 @@
+.toolbar {
+  display: flex;
+
+  &__btn {
+    margin: 0;
+    padding: 10px 15px;
+    background: #fff;
+    border: 1px solid #555555;
+    transition: background .15s ease-out, color .15s ease-out;
+    cursor: pointer;
+
+    &:hover {
+      background: #6e6e6e;
+      color: #fff;
+    }
+    
+    &_active {
+      background: #555555;
+      color: #fff;
+    }
+
+  }
+
+  &__btn + &__btn {
+    margin-left: 10px;
+  }
+}
