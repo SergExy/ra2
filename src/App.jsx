@@ -6,14 +6,14 @@ import Store from './components/store/Store'
 function App() {
   return (
     <Routes>
-      <Route path='/' element={
+      <Route path='/ra2/' element={
         <ol>
-          <li><Link to={'/portfolio'}>Портфолио с фильтрами.</Link></li>
-          <li><Link to={'/store'}>Расположение товаров.</Link></li>
+          <li><Link to={'/ra2/portfolio'}>Портфолио с фильтрами.</Link></li>
+          <li><Link to={'/ra2/store'}>Расположение товаров.</Link></li>
         </ol>
       } />
-      <Route path='/portfolio' element={<Portfolio />} />
-      <Route path='/store' element={<Store />} />
+      <Route path='/ra2/portfolio' element={<Portfolio />} />
+      <Route path='/ra2/store' element={<Store />} />
     </Routes>
   )
 }
